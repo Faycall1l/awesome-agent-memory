@@ -55,6 +55,18 @@ git commit -m "add: <title>"
 
 The tooling uses only the Python standard library (Python 3.10 or newer), so there is nothing to install.
 
+### Linting
+
+The README follows the [awesome](https://github.com/sindresorhus/awesome) conventions and is checked with [`awesome-lint`](https://github.com/sindresorhus/awesome-lint):
+
+```bash
+npx awesome-lint
+```
+
+It enforces the entry shape (`- [Title (Year)](url) - Description.`), title case in headings, a table of contents that matches the headings, no duplicate links, and no license section in the README. The README is generated, so fix the format in `scripts/build_readme.py` rather than editing the Markdown.
+
+That is also why the "Start here" section lists titles without links: the same paper cannot be linked twice in one document, and its link belongs in its own section.
+
 ### A note on the generated README
 
 `README.md` is deterministic: the counts are derived from `data/entries.csv` and there is no build timestamp, so rebuilding without changing data must produce a byte-identical file. Include the regenerated file in your pull request.
@@ -81,7 +93,7 @@ Broken link, wrong year, wrong title, misleading description, better canonical U
 
 ## Style
 
-- Markdown: sentence case for headings, em dashes (`—`) not double hyphens, Oxford comma.
+- Markdown: sentence case for headings, em dashes (`—`) inside prose, Oxford comma. The separator between a link and its description must be a plain hyphen (`-`), because `awesome-lint` rejects en and em dashes there.
 - Dates and years: ISO (`2026-11-15`).
 - Link text should name the work, not say "here" or "this paper".
 - British or American spelling is fine; be consistent within an entry.

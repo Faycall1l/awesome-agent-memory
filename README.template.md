@@ -1,12 +1,12 @@
 <div align="center">
 
-# Awesome Agent Memory
+<a href="https://github.com/Faycall1l/awesome-agent-memory">
+  <img src="media/logo.svg" width="360" alt="Dense memory traces consolidating into a small structured graph">
+</a>
 
-**A curated map of memory for AI agents: papers, systems, benchmarks, tools and articles.**
+# Awesome Agent Memory [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+Long-term memory for AI agents: how agents store, consolidate, retrieve and forget knowledge, procedures and experience across sessions.
 
 <sub>{{STATS}}</sub>
 
@@ -16,15 +16,13 @@ Memory is the layer that turns a stateless model into an agent that accumulates 
 
 **Scope.** Papers and tools about persistent state *outside the model weights* that an LLM or foundation-model agent writes, manages and reads across tasks or sessions. Static-corpus RAG is included only where it informs agent-memory design. General vector and graph databases appear as infrastructure, not as memory systems. Papers are mostly arXiv preprints because the field moves faster than review cycles; publication venues are therefore omitted rather than guessed.
 
-> **How this list is built.** It grew out of a systematic review of the agent-memory and agent-skill literature (2,000+ screened records, a 93-paper core reading set) and the reference set of a PhD on cognitive distillation and schema formation. Every entry has a link, and descriptions are written to be useful rather than to paraphrase abstracts. The protocol, inclusion criteria and known biases are documented in [docs/methodology.md](docs/methodology.md).
-
 ## Contents
 
 {{TOC}}
 
 ## Start here
 
-If you read eight things, read these:
+If you read eight things, read these. Every title below is listed with its link in the section after it.
 
 {{START_HERE}}
 
@@ -32,37 +30,33 @@ Then pick a path: [building an agent](docs/reading-paths.md#building-an-agent) Â
 
 ## The landscape at a glance
 
-| Lens | Question | What to look for |
-|---|---|---|
-| **Forms** | What carries the memory? | Token-level (flat logs, trees, graphs, hierarchies), parametric (weights, adapters), latent (KV cache, activations) |
-| **Functions** | Why does the agent keep it? | Factual (user, environment), experiential (cases, strategies, skills), working (condensation, planning state) |
-| **Dynamics** | How does it change? | Formation, consolidation, update, forgetting, retrieval |
-| **Lifecycle** | Who acts, and when? | Write path, background consolidation, read path, governance and deletion |
-| **Evaluation** | Did it actually help? | Task success, memory quality, cost and latency, compactness, transfer, safety |
+| Lens           | Question                    | What to look for                                                                                                    |
+| -------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Forms**      | What carries the memory?    | Token-level (flat logs, trees, graphs, hierarchies), parametric (weights, adapters), latent (KV cache, activations) |
+| **Functions**  | Why does the agent keep it? | Factual (user, environment), experiential (cases, strategies, skills), working (condensation, planning state)       |
+| **Dynamics**   | How does it change?         | Formation, consolidation, update, forgetting, retrieval                                                             |
+| **Lifecycle**  | Who acts, and when?         | Write path, background consolidation, read path, governance and deletion                                            |
+| **Evaluation** | Did it actually help?       | Task success, memory quality, cost and latency, compactness, transfer, safety                                       |
 
-Most design disagreements reduce to five tensions: **utility** vs **efficiency**, **adaptivity** vs **faithfulness**, and **governance** over all of them (Du, 2026). The taxonomy is expanded in [docs/taxonomy.md](docs/taxonomy.md).
+Most design disagreements reduce to five tensions: **utility** vs **efficiency**, **adaptivity** vs **faithfulness**, and **governance** over all of them. The taxonomy behind this table is expanded in [docs/taxonomy.md](docs/taxonomy.md).
 
 {{SECTIONS}}
 
 ## How to use this list
 
-- **New to the area:** read the first three surveys in *Start here*, then one system paper and one benchmark.
-- **Building a product:** start with the frameworks section, then read the benchmark that matches your workload. Vendor blogs are useful for design vocabulary; treat their scores as directional.
-- **Writing a paper:** the survey and benchmark sections give the current baselines and evaluation axes. The *Consolidation, forgetting & pruning* and *Control, triggering & self-evolution* sections are where the open problems are.
-- **Looking for a gap:** [docs/taxonomy.md](docs/taxonomy.md) lists the lifecycle stages and the questions each stage still leaves open.
+- New to the area: read the first three surveys in Start here, then one system paper and one benchmark.
+- Building a product: start with the frameworks section, then read the benchmark that matches your workload. Vendor blogs are useful for design vocabulary, but treat their scores as directional.
+- Writing a paper: the survey and benchmark sections give the current baselines and evaluation axes. The consolidation, forgetting and control sections are where the open problems are.
+- Looking for a gap: `docs/taxonomy.md` lists the lifecycle stages and the questions each stage still leaves open.
 
 ## Contributing
 
 Corrections and additions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first: entries live in [`data/entries.csv`](data/entries.csv), and `README.md` is generated by `make build`. A good pull request adds one entry, a working link and a one-sentence description that says why the work matters.
 
-## License
+## Footnotes
 
-The curation, descriptions and documentation in this repository are licensed under [CC BY 4.0](LICENSE). Linked papers, code and articles remain under their own licenses.
+**Method and provenance.** The list grew out of a systematic review of the agent-memory and agent-skill literature (2,000+ screened records, a 93-paper core reading set) and the reference set of a PhD on cognitive distillation and schema formation. The protocol, inclusion criteria and known biases are in [docs/methodology.md](docs/methodology.md); reading paths are in [docs/reading-paths.md](docs/reading-paths.md).
 
-## Citation
+**Citation.** If you use this list in teaching or research, cite it via [CITATION.cff](CITATION.cff).
 
-If you use this list in teaching or research, cite it via [CITATION.cff](CITATION.cff). Corrections to individual entries are tracked in the git history.
-
-## Acknowledgements
-
-This list benefited from the surveys and companion repositories it indexes, especially the paper lists maintained by the agent-memory and graph-memory communities. Errors in selection or description are the maintainers' own.
+**Acknowledgements.** This list benefited from the surveys and companion repositories it indexes, especially the paper lists maintained by the agent-memory and graph-memory communities. Errors in selection or description are the maintainers' own.

@@ -61,23 +61,18 @@ def clean(text: str) -> str:
 
 
 def render_entry(row: dict) -> str:
+    """Render one entry in the awesome-list format.
+
+    The format `- [Title (Year)](url) - Description.` is required by
+    awesome-lint: bold titles, a year outside the link, and em-dash
+    separators all fail the list-item rule.
+    """
     title = row["title"]
-    link = row["link"]
-    year = row["year"]
     desc = clean(row["description"])
-    kind = row["kind"]
-
-    if kind == "tool":
-        line = f"- **[{title}]({link})** — {desc}"
-    elif kind == "article":
-        line = f"- **[{title}]({link})** ({year}) — {desc}"
-    elif kind == "list":
-        line = f"- **[{title}]({link})** — {desc}"
-    else:
-        line = f"- **[{title}]({link})** ({year}) — {desc}"
-
+    label = f"{title} ({row['year']})" if row["kind"] in ("paper", "article") else title
+    line = f"- [{label}]({row['link']}) - {desc}"
     if row["extra_url"]:
-        line += f" · [{row['extra_label']}]({row['extra_url']})"
+        line += f" [{row['extra_label']}]({row['extra_url']})"
     return line
 
 
@@ -97,13 +92,18 @@ def main() -> None:
     )
 
     toc = "\n".join(
-        f"- [{name}](#{slug(name)}) ({counts[name]})" for name, _ in SECTIONS
+        [
+            "- [Start here](#start-here)",
+            "- [The landscape at a glance](#the-landscape-at-a-glance)",
+        ]
+        + [f"- [{name}](#{slug(name)}) ({counts[name]})" for name, _ in SECTIONS]
+        + ["- [How to use this list](#how-to-use-this-list)"]
     )
 
     start = []
     for i, (title, why) in enumerate(START_HERE, 1):
         row = by_title[title]
-        start.append(f"{i}. **[{title}]({row['link']})** ({row['year']}) — {why}")
+        start.append(f"{i}. {title} ({row['year']}) — {why}")
     start_here = "\n".join(start)
 
     blocks: list[str] = []
