@@ -296,23 +296,23 @@ Practitioner writing that explains the design choices.
 ### Overviews & context engineering
 
 - **[LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)** (2023) — The post that popularised planning, memory and tool use as the three pillars of an agent.
-- **[Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)** (2025) — Practical treatment of context as a finite resource: selection, compression, isolation and memory.
-- **[Building effective AI agents](https://www.anthropic.com/engineering/building-effective-agents)** (2024) — Workflows vs agents, with memory and tool use as design choices.
-- **[Context Engineering for Agents](https://blog.langchain.com/context-engineering-for-agents/)** (2025) — Write, select, compress and isolate: a useful four-part taxonomy.
+- **[Effective context engineering for AI agents](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents)** (2025) — Practical treatment of context as a finite resource: selection, compression, isolation and memory.
+- **[Building effective AI agents](https://www.anthropic.com/research/building-effective-agents)** (2024) — Workflows vs agents, with memory and tool use as design choices.
+- **[Context Engineering for Agents](https://www.langchain.com/blog/context-engineering-for-agents)** (2025) — Write, select, compress and isolate: a useful four-part taxonomy.
 - **[How Long Contexts Fail](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html)** (2025) — Poisoning, distraction, confusion and clash; the failure modes memory design must avoid.
 - **[How to Fix Your Context](https://www.dbreunig.com/2025/06/26/how-to-fix-your-context.html)** (2025) — Concrete techniques for selecting, compressing and isolating context.
 - **[Context Inertia: When Agents Won't Let Go](https://www.dbreunig.com/2026/10/14/context-inertia.html)** (2026) — Why stale context persists and how to design for forgetting.
 
 ### Memory systems & practice
 
-- **[LangMem SDK for agent long-term memory](https://blog.langchain.com/langmem-sdk-launch/)** (2025) — Hot-path vs background memory formation, and the API design behind LangMem.
-- **[Launching Long-Term Memory Support in LangGraph](https://blog.langchain.com/launching-long-term-memory-support-in-langgraph/)** (2024) — Namespaced long-term memory store for graph-based agents.
+- **[LangMem SDK for agent long-term memory](https://www.langchain.com/blog/langmem-sdk-launch)** (2025) — Hot-path vs background memory formation, and the API design behind LangMem.
+- **[Launching Long-Term Memory Support in LangGraph](https://www.langchain.com/blog/launching-long-term-memory-support-in-langgraph)** (2024) — Namespaced long-term memory store for graph-based agents.
 - **[Memory Blocks: The Key to Agentic Context Management](https://www.letta.com/blog/memory-blocks)** (2025) — Editable, labelled blocks that keep core state in the context window.
 - **[Agent Memory: How to Build Agents That Learn and Remember](https://www.letta.com/blog/agent-memory)** (2025) — Memory types and lifecycle in the Letta/MemGPT architecture.
 - **[Dream: Background Memory Consolidation for AI Agents](https://mem0.ai/blog/dream-background-memory-consolidation-for-ai-agents)** (2026) — Background consolidation, staleness and forgetting in production memory.
 - **[Benchmarked OpenAI Memory vs LangMem vs MemGPT vs Mem0](https://mem0.ai/blog/benchmarked-openai-memory-vs-langmem-vs-memgpt-vs-mem0-for-long-term-memory-here-s-how-they-stacked-up)** (2025) — A vendor comparison; read for harness choices as much as for scores.
-- **[Announcing Zep Agent Skills](https://blog.getzep.com/blog/introducing-zep-agent-skills/)** (2026) — Packaging verified traces into deployable skills.
-- **[Context Graphs: Two Timelines for Every Fact](https://blog.getzep.com/blog/context-graphs-two-timelines-every-fact/)** (2026) — Bi-temporal modelling explained for practitioners.
+- **[Announcing Zep Agent Skills](https://www.getzep.com/blog/introducing-zep-agent-skills/)** (2026) — Packaging verified traces into deployable skills.
+- **[Context Graphs: Two Timelines for Every Fact](https://www.getzep.com/blog/context-graphs-two-timelines-every-fact/)** (2026) — Bi-temporal modelling explained for practitioners.
 
 ## Related lists & communities
 

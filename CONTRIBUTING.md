@@ -53,6 +53,8 @@ git commit -m "add: <title>"
 
 `make check` is what CI runs: it validates the CSV and fails if `README.md` does not match what the generator would produce.
 
+The tooling uses only the Python standard library (Python 3.10 or newer), so there is nothing to install.
+
 ### A note on the generated README
 
 `README.md` is deterministic: the counts are derived from `data/entries.csv` and there is no build timestamp, so rebuilding without changing data must produce a byte-identical file. Include the regenerated file in your pull request.
