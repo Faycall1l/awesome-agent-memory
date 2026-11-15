@@ -108,42 +108,42 @@ End-to-end memory layers, runtimes and stores.
 - **[MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250)** (2023) — Long-term dialogue memory with daily summarisation and Ebbinghaus-style decay of memory strength.
 - **[Less Context, More Accuracy: A Bi-Temporal Memory Engine for LLM Agents Where a Lean Retrieved Context Beats the Full History](https://arxiv.org/abs/2606.09900)** (2026) — Engram: dual-process memory with a cheap append-only write path, asynchronous bi-temporal consolidation and hybrid retrieval.
 - **[Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents](https://arxiv.org/abs/2607.13157)** (2026) — Oracle Agent Memory as a database-native substrate: lifecycle, scoping, latency-bounded retrieval and revision/removal.
-- **[MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://arxiv.org/abs/2507.07957)** (2025) — MIRIX: multi-agent memory with six typed memory components coordinated by a meta-manager. · [Code](https://github.com/Mirix-AI/MIRIX)
+- **[MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://arxiv.org/abs/2507.07957)** (2025) — Multi-agent memory with six typed memory components coordinated by a meta-manager. · [Code](https://github.com/Mirix-AI/MIRIX)
 - **[Rethinking Memory as Continuously Evolving Connectivity](https://arxiv.org/abs/2605.28773)** (2026) — FluxMem: treats memory as continuously evolving connectivity rather than a static store with fixed retrieval.
-- **[MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing](https://arxiv.org/abs/2605.23986)** (2026) — MemForest: parallel, write-efficient extraction with hierarchical temporal indexing for low-latency updates.
+- **[MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing](https://arxiv.org/abs/2605.23986)** (2026) — Parallel, write-efficient extraction with hierarchical temporal indexing for low-latency updates.
 - **[Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents](https://arxiv.org/abs/2607.13591)** (2026) — Learns when to retrieve, retrieve again or reuse a plan instead of applying one fixed memory heuristic.
 
 ## Graph, temporal & structured memory
 
 Knowledge graphs, trees, hypergraphs, bi-temporal stores and provenance.
 
-- **[AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents](https://arxiv.org/abs/2407.04363)** (2024) — AriGraph: online triplet extraction plus episodic hyperedges, giving an agent a plannable graph world model. · [Code](https://github.com/AIRI-Institute/AriGraph)
-- **[HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models](https://arxiv.org/abs/2405.14831)** (2024) — HippoRAG: hippocampus-inspired graph index over a corpus for multi-hop, single-step retrieval. · [Code](https://github.com/OSU-NLP-Group/HippoRAG)
+- **[AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents](https://arxiv.org/abs/2407.04363)** (2024) — Online triplet extraction plus episodic hyperedges, giving an agent a plannable graph world model. · [Code](https://github.com/AIRI-Institute/AriGraph)
+- **[HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models](https://arxiv.org/abs/2405.14831)** (2024) — Hippocampus-inspired graph index over a corpus for multi-hop, single-step retrieval. · [Code](https://github.com/OSU-NLP-Group/HippoRAG)
 - **[From RAG to Memory: Non-Parametric Continual Learning for Large Language Models](https://arxiv.org/abs/2502.14802)** (2025) — HippoRAG 2: adds dense retrieval and passage-level evidence to the graph index for continual non-parametric learning. · [Code](https://github.com/OSU-NLP-Group/HippoRAG)
 - **[From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130)** (2024) — GraphRAG: entity graph plus community summaries for global, query-focused summarisation. · [Code](https://github.com/microsoft/graphrag)
-- **[LightRAG: Simple and Fast Retrieval-Augmented Generation](https://arxiv.org/abs/2410.05779)** (2024) — LightRAG: lightweight dual-level graph retrieval with incremental updates. · [Code](https://github.com/HKUDS/LightRAG)
-- **[RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval](https://arxiv.org/abs/2401.18059)** (2024) — RAPTOR: recursively clusters and summarises text into a tree for multi-level retrieval. · [Code](https://github.com/parthsarthi03/raptor)
-- **[Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving](https://arxiv.org/abs/2507.06229)** (2025) — Agent KB: cross-domain experience library with retrieval and reranking of reusable problem-solving strategies.
+- **[LightRAG: Simple and Fast Retrieval-Augmented Generation](https://arxiv.org/abs/2410.05779)** (2024) — Lightweight dual-level graph retrieval with incremental updates. · [Code](https://github.com/HKUDS/LightRAG)
+- **[RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval](https://arxiv.org/abs/2401.18059)** (2024) — Recursively clusters and summarises text into a tree for multi-level retrieval. · [Code](https://github.com/parthsarthi03/raptor)
+- **[Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving](https://arxiv.org/abs/2507.06229)** (2025) — Cross-domain experience library with retrieval and reranking of reusable problem-solving strategies.
 - **[Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents](https://arxiv.org/abs/2608.12476)** (2026) — GPM: source-bound bi-temporal state transitions with executable admission, conflict-isolation and release contracts.
-- **[TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory](https://arxiv.org/abs/2606.06240)** (2026) — TOKI: types contradiction-resolution heuristics as bi-temporal operators with explicit isolation levels and audit rows.
+- **[TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory](https://arxiv.org/abs/2606.06240)** (2026) — Types contradiction-resolution heuristics as bi-temporal operators with explicit isolation levels and audit rows.
 - **[A Graph-Native Bitemporal Memory Store for Conversational AI Agents](https://arxiv.org/abs/2607.26520)** (2026) — Neo4j + HNSW memory store separating identity from versions for point-in-time retrieval without overwriting history.
-- **[HyperSkill: Self-Evolving LLM Agents via Hypergraph-Structured Skill Memory](https://arxiv.org/abs/2608.16114)** (2026) — HyperSkill: hypergraph-structured skill memory that preserves compositional relations among procedures.
-- **[SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale](https://arxiv.org/abs/2609.08228)** (2026) — SE-GoS: distils execution traces into a self-evolving graph of skills for dependency-aware retrieval at scale.
-- **[SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries](https://arxiv.org/abs/2608.05604)** (2026) — SkillZip: compresses skill graphs while preserving procedural contracts to fit a bounded context budget.
-- **[SkillGLoW: Procedural-Family Skill Consolidation for Self-Improving Agents on Long-Horizon Task Streams](https://arxiv.org/abs/2609.02217)** (2026) — SkillGLoW: groups related procedures into families and consolidates them for long-horizon task streams.
+- **[HyperSkill: Self-Evolving LLM Agents via Hypergraph-Structured Skill Memory](https://arxiv.org/abs/2608.16114)** (2026) — Hypergraph-structured skill memory that preserves compositional relations among procedures.
+- **[SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale](https://arxiv.org/abs/2609.08228)** (2026) — Distils execution traces into a self-evolving graph of skills for dependency-aware retrieval at scale.
+- **[SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries](https://arxiv.org/abs/2608.05604)** (2026) — Compresses skill graphs while preserving procedural contracts to fit a bounded context budget.
+- **[SkillGLoW: Procedural-Family Skill Consolidation for Self-Improving Agents on Long-Horizon Task Streams](https://arxiv.org/abs/2609.02217)** (2026) — Groups related procedures into families and consolidates them for long-horizon task streams.
 
 ## Consolidation, forgetting & pruning
 
 What to merge, compress, decay, supersede or delete — and why.
 
-- **[FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory](https://arxiv.org/abs/2601.18642)** (2026) — FadeMem: differential Ebbinghaus decay across two layers, with LLM-guided conflict resolution and fusion; 45% smaller store.
-- **[FSFM: A Biologically-Inspired Framework for Selective Forgetting of Agent Memory](https://arxiv.org/abs/2604.20300)** (2026) — FSFM: selective forgetting that combines hippocampal indexing with forgetting curves.
+- **[FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory](https://arxiv.org/abs/2601.18642)** (2026) — Differential Ebbinghaus decay across two layers, with LLM-guided conflict resolution and fusion; 45% smaller store.
+- **[FSFM: A Biologically-Inspired Framework for Selective Forgetting of Agent Memory](https://arxiv.org/abs/2604.20300)** (2026) — Selective forgetting that combines hippocampal indexing with forgetting curves.
 - **[What to Keep, What to Forget: A Rate–Distortion View of Memory Compaction in LLMs and Agents](https://arxiv.org/abs/2607.08032)** (2026) — Rate-distortion account of memory compaction, unifying KV-cache eviction, context compression and agent-store pruning.
 - **[Use and Disuse: Intent-Structured Experience Consolidation for Memory and Learning in LLM Agents](https://arxiv.org/abs/2610.12124)** (2026) — Hippocam: hierarchical memory where use reinforces experience and disuse decays it, with intent-structured consolidation.
 - **[Dual-Layer Agentic Memory with Fast Write Routing and Slow Consolidation](https://arxiv.org/abs/2608.22215)** (2026) — Fast write routing plus slow background consolidation to avoid monotonic memory growth and retrieval decay.
 - **[Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation](https://arxiv.org/abs/2605.09315)** (2026) — Measures non-monotonic capability degradation in self-evolving agents across skills, workflows, weights and memory.
 - **[The Epistemics of Agent Memory: Measuring, and Governing, the Consolidation Decision in Long-Horizon LLM Agents](https://arxiv.org/abs/2609.33013)** (2026) — Shifts evaluation from how much is remembered to whether consolidation decisions and their authority are sound.
-- **[Sleep-time Compute: Beyond Inference Scaling at Test-time](https://arxiv.org/abs/2504.13171)** (2025) — Sleep-time compute: moves consolidation and reasoning into idle time so the critical path stays cheap.
+- **[Sleep-time Compute: Beyond Inference Scaling at Test-time](https://arxiv.org/abs/2504.13171)** (2025) — Moves consolidation and reasoning into idle time so the critical path stays cheap.
 - **[Repo2Skill-Evo: Repository Skills Go Stale in Silence](https://arxiv.org/abs/2608.21964)** (2026) — Shows repository-specific skills silently go stale and measures how to detect and repair them.
 - **[When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents](https://arxiv.org/abs/2609.10750)** (2026) — 34k-skill router study: synthetic fine-tuning improves in-distribution retrieval but causes catastrophic forgetting.
 - **[Not All Skills Help: Measuring and Repairing Agent Knowledge](https://arxiv.org/abs/2606.15390)** (2026) — Separates generating a skill from deciding whether it helps; measures and repairs harmful accumulated knowledge.
@@ -153,52 +153,52 @@ What to merge, compress, decay, supersede or delete — and why.
 
 Turning trajectories into reusable procedures, workflows and skills.
 
-- **[Agent Workflow Memory](https://arxiv.org/abs/2409.07429)** (2024) — Agent Workflow Memory: induces reusable workflows from past trajectories and injects them into future tasks.
-- **[Memp: Exploring Agent Procedural Memory](https://arxiv.org/abs/2508.06433)** (2025) — Memp: distils trajectories into step-level instructions and higher-level scripts for learnable procedural memory.
-- **[Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution](https://arxiv.org/abs/2512.10696)** (2025) — ReMe: dynamic procedural memory that refines, recombines and retires knowledge instead of accumulating it passively. · [Code](https://github.com/agentscope-ai/ReMe)
-- **[Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills](https://arxiv.org/abs/2603.25158)** (2026) — Trace2Skill: consolidates many trajectories in parallel into a transferable skill directory.
-- **[SkillX: Automatically Constructing Skill Knowledge Bases for Agents](https://arxiv.org/abs/2604.04804)** (2026) — SkillX: automatically builds a shared, cross-agent skill knowledge base from experience.
-- **[SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning](https://arxiv.org/abs/2602.08234)** (2026) — SkillRL: extracts reusable behavioural patterns and feeds them back into recursive skill-augmented RL.
-- **[MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents](https://arxiv.org/abs/2602.02474)** (2026) — MemSkill: makes memory operations themselves learnable skills instead of fixed extraction prompts.
-- **[SkillOS: Learning Skill Curation for Self-Evolving Agents](https://arxiv.org/abs/2605.06614)** (2026) — SkillOS: learns a curation policy for streaming tasks — when to add, merge, keep or prune skills.
-- **[STRATA: Self-Maintaining Structured Experience Graphs for Self-Evolving Language Agents](https://arxiv.org/abs/2610.19386)** (2026) — STRATA: typed multi-level experience graph separating trajectories, distilled workflows and reasoning items.
-- **[WASP-Mem: Let Agent Organize Procedural Memory. Human Spend Effort on Diagnosis](https://arxiv.org/abs/2611.04003)** (2026) — WASP-Mem: lets the agent organise its own procedural memory while humans focus on diagnosis.
-- **[REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents](https://arxiv.org/abs/2610.27377)** (2026) — REM: jointly decides what to store, when to recall and what to forget for coding agents.
+- **[Agent Workflow Memory](https://arxiv.org/abs/2409.07429)** (2024) — Induces reusable workflows from past trajectories and injects them into future tasks.
+- **[Memp: Exploring Agent Procedural Memory](https://arxiv.org/abs/2508.06433)** (2025) — Distils trajectories into step-level instructions and higher-level scripts for learnable procedural memory.
+- **[Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution](https://arxiv.org/abs/2512.10696)** (2025) — Dynamic procedural memory that refines, recombines and retires knowledge instead of accumulating it passively. · [Code](https://github.com/agentscope-ai/ReMe)
+- **[Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills](https://arxiv.org/abs/2603.25158)** (2026) — Consolidates many trajectories in parallel into a transferable skill directory.
+- **[SkillX: Automatically Constructing Skill Knowledge Bases for Agents](https://arxiv.org/abs/2604.04804)** (2026) — Automatically builds a shared, cross-agent skill knowledge base from experience.
+- **[SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning](https://arxiv.org/abs/2602.08234)** (2026) — Extracts reusable behavioural patterns and feeds them back into recursive skill-augmented RL.
+- **[MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents](https://arxiv.org/abs/2602.02474)** (2026) — Makes memory operations themselves learnable skills instead of fixed extraction prompts.
+- **[SkillOS: Learning Skill Curation for Self-Evolving Agents](https://arxiv.org/abs/2605.06614)** (2026) — Learns a curation policy for streaming tasks — when to add, merge, keep or prune skills.
+- **[STRATA: Self-Maintaining Structured Experience Graphs for Self-Evolving Language Agents](https://arxiv.org/abs/2610.19386)** (2026) — Typed multi-level experience graph separating trajectories, distilled workflows and reasoning items.
+- **[WASP-Mem: Let Agent Organize Procedural Memory. Human Spend Effort on Diagnosis](https://arxiv.org/abs/2611.04003)** (2026) — Lets the agent organise its own procedural memory while humans focus on diagnosis.
+- **[REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents](https://arxiv.org/abs/2610.27377)** (2026) — Jointly decides what to store, when to recall and what to forget for coding agents.
 - **[Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces](https://arxiv.org/abs/2611.01386)** (2026) — Zep Agent Skills: compiles verified traces into curated, deployable skills in a production service.
-- **[Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents](https://arxiv.org/abs/2602.01869)** (2026) — Skill-Pro: non-parametric PPO that learns reusable skills from interaction without weight updates.
-- **[ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience](https://arxiv.org/abs/2610.05303)** (2026) — ASCENT: online test-time training by self-distilling verified experience into future attempts.
-- **[DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks](https://arxiv.org/abs/2610.08048)** (2026) — DAEDALUS: bootstraps operational memory from self-generated tasks when no human guidance is available.
-- **[CONTRAMEM: Learning Self-Evolving Procedural Memory from Contrasting Multi-Model Trajectories](https://arxiv.org/abs/2608.22533)** (2026) — CONTRAMEM: learns procedural memory by contrasting trajectories from multiple models.
-- **[MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation](https://arxiv.org/abs/2605.27366)** (2026) — MUSE-Autoskill: unified skill creation, memory, management and evaluation lifecycle.
-- **[JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models](https://arxiv.org/abs/2311.05997)** (2023) — JARVIS-1: memory-augmented multimodal agent with self-check and an accumulating skill library.
-- **[Odyssey: Empowering Minecraft Agents with Open-World Skills](https://arxiv.org/abs/2407.15325)** (2024) — Odyssey: open-world Minecraft skill library with composable routines and a skill-management pipeline.
-- **[SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution](https://arxiv.org/abs/2605.18401)** (2026) — SkillsVote: lifecycle governance for open skill ecosystems — collection, recommendation and evolution.
+- **[Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents](https://arxiv.org/abs/2602.01869)** (2026) — Non-parametric PPO that learns reusable skills from interaction without weight updates.
+- **[ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience](https://arxiv.org/abs/2610.05303)** (2026) — Online test-time training by self-distilling verified experience into future attempts.
+- **[DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks](https://arxiv.org/abs/2610.08048)** (2026) — Bootstraps operational memory from self-generated tasks when no human guidance is available.
+- **[CONTRAMEM: Learning Self-Evolving Procedural Memory from Contrasting Multi-Model Trajectories](https://arxiv.org/abs/2608.22533)** (2026) — Learns procedural memory by contrasting trajectories from multiple models.
+- **[MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation](https://arxiv.org/abs/2605.27366)** (2026) — Unified skill creation, memory, management and evaluation lifecycle.
+- **[JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models](https://arxiv.org/abs/2311.05997)** (2023) — Memory-augmented multimodal agent with self-check and an accumulating skill library.
+- **[Odyssey: Empowering Minecraft Agents with Open-World Skills](https://arxiv.org/abs/2407.15325)** (2024) — Open-world Minecraft skill library with composable routines and a skill-management pipeline.
+- **[SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution](https://arxiv.org/abs/2605.18401)** (2026) — Lifecycle governance for open skill ecosystems — collection, recommendation and evolution.
 
 ## Control, triggering & self-evolution
 
 When to remember, when to recall and when to change the memory policy.
 
-- **[Darwin-Claw: Environment-Adaptive Experience Consolidation for Recursively Self-Evolving Agents](https://arxiv.org/abs/2610.23574)** (2026) — Darwin-Claw: environment-adaptive consolidation instead of indiscriminate injection of raw trajectories.
-- **[SkillSpec: Consensus-Gated Agent Skill Evolution via Representation Specialization](https://arxiv.org/abs/2610.00704)** (2026) — SkillSpec: consensus-gated skill evolution with representation specialisation.
-- **[EASE: Behavior-Adaptive Skill Curation for Self-Evolving Agents](https://arxiv.org/abs/2609.36746)** (2026) — EASE: behaviour-adaptive skill curation modelled against the downstream executor.
-- **[GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668)** (2026) — GRASP: accepts a proposed skill only when it improves the target task without regressing earlier ones.
-- **[SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents](https://arxiv.org/abs/2605.08386)** (2026) — SkillLens: adaptive multi-granularity skill reuse to cut injected context while keeping relevance.
-- **[APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering](https://arxiv.org/abs/2609.02253)** (2026) — APEx: distils procedural experience and couples it to policy adaptation for deep-research QA.
-- **[Route to Remember: Adaptive Memory Selection for LLM Agents](https://arxiv.org/abs/2611.05636)** (2026) — Route to Remember: learns when to use text memory and when to move knowledge into weights.
-- **[RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent](https://arxiv.org/abs/2610.21791)** (2026) — RSIFlow: adaptive self-improvement workflows with an evolving meta-agent.
-- **[SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection](https://arxiv.org/abs/2610.18807)** (2026) — SkillScaffold: policy-adaptive credit assignment and selective skill injection for agentic RL.
-- **[AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents](https://arxiv.org/abs/2603.09716)** (2026) — AutoAgent: evolving cognition plus elastic memory orchestration for non-stationary environments.
+- **[Darwin-Claw: Environment-Adaptive Experience Consolidation for Recursively Self-Evolving Agents](https://arxiv.org/abs/2610.23574)** (2026) — Environment-adaptive consolidation instead of indiscriminate injection of raw trajectories.
+- **[SkillSpec: Consensus-Gated Agent Skill Evolution via Representation Specialization](https://arxiv.org/abs/2610.00704)** (2026) — Consensus-gated skill evolution with representation specialisation.
+- **[EASE: Behavior-Adaptive Skill Curation for Self-Evolving Agents](https://arxiv.org/abs/2609.36746)** (2026) — Behaviour-adaptive skill curation modelled against the downstream executor.
+- **[GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668)** (2026) — Accepts a proposed skill only when it improves the target task without regressing earlier ones.
+- **[SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents](https://arxiv.org/abs/2605.08386)** (2026) — Adaptive multi-granularity skill reuse to cut injected context while keeping relevance.
+- **[APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering](https://arxiv.org/abs/2609.02253)** (2026) — Distils procedural experience and couples it to policy adaptation for deep-research QA.
+- **[Route to Remember: Adaptive Memory Selection for LLM Agents](https://arxiv.org/abs/2611.05636)** (2026) — Learns when to use text memory and when to move knowledge into weights.
+- **[RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent](https://arxiv.org/abs/2610.21791)** (2026) — Adaptive self-improvement workflows with an evolving meta-agent.
+- **[SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection](https://arxiv.org/abs/2610.18807)** (2026) — Policy-adaptive credit assignment and selective skill injection for agentic RL.
+- **[AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents](https://arxiv.org/abs/2603.09716)** (2026) — Evolving cognition plus elastic memory orchestration for non-stationary environments.
 
 ## Trust, governance & security
 
 Provenance, authority, poisoning, privacy and safe consolidation.
 
 - **[When Memory Becomes Authority: Benchmarking Authority Collapse at the Memory Consolidation Boundary](https://arxiv.org/abs/2608.01679)** (2026) — Benchmark for authority collapse: consolidated memory later consumed as instruction rather than testimony.
-- **[Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework](https://arxiv.org/abs/2603.11768)** (2026) — SSGM: governance framework for semantic drift, privacy and stability in evolving memory.
-- **[TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory](https://arxiv.org/abs/2606.25161)** (2026) — TRUSTMEM: learns trustworthy write/revise/delete operations and guards against omission and hallucinated consolidation.
-- **[MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair](https://arxiv.org/abs/2607.27080)** (2026) — MemSecBench: tracks memory poisoning from persistence through consequence to repair.
-- **[MRMMIA: Membership Inference Attacks on Memory in Chat Agents](https://arxiv.org/abs/2605.27825)** (2026) — MRMMIA: membership-inference attacks against chat-agent memory, with privacy implications.
-- **[AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems](https://arxiv.org/abs/2610.05176)** (2026) — AECG: asymmetric consolidation and governance to stop polluted procedures spreading in multi-agent systems.
+- **[Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework](https://arxiv.org/abs/2603.11768)** (2026) — Governance framework for semantic drift, privacy and stability in evolving memory.
+- **[TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory](https://arxiv.org/abs/2606.25161)** (2026) — Learns trustworthy write/revise/delete operations and guards against omission and hallucinated consolidation.
+- **[MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair](https://arxiv.org/abs/2607.27080)** (2026) — Tracks memory poisoning from persistence through consequence to repair.
+- **[MRMMIA: Membership Inference Attacks on Memory in Chat Agents](https://arxiv.org/abs/2605.27825)** (2026) — Membership-inference attacks against chat-agent memory, with privacy implications.
+- **[AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems](https://arxiv.org/abs/2610.05176)** (2026) — Asymmetric consolidation and governance to stop polluted procedures spreading in multi-agent systems.
 - **[Can Benign Skills Induce Misaligned Behavior in LLM Agents?](https://arxiv.org/abs/2611.04299)** (2026) — Shows that benign skills can compose into harmful capabilities; argues for skill-level safety evaluation.
 
 ## Benchmarks: memory & long-horizon evaluation
@@ -206,35 +206,35 @@ Provenance, authority, poisoning, privacy and safe consolidation.
 Datasets and harnesses that test memory over sessions and tasks.
 
 - **[Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753)** (2024) — LoCoMo: very long multi-session conversations with single-hop, multi-hop, temporal and adversarial recall questions. · [Code](https://github.com/snap-research/locomo)
-- **[LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813)** (2024) — LongMemEval: five long-term abilities — information extraction, multi-session reasoning, temporal reasoning, knowledge updates and abstention. · [Code](https://github.com/xiaowu0162/LongMemEval)
+- **[LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813)** (2024) — Five long-term abilities — information extraction, multi-session reasoning, temporal reasoning, knowledge updates and abstention. · [Code](https://github.com/xiaowu0162/LongMemEval)
 - **[Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions](https://arxiv.org/abs/2507.05257)** (2025) — MemoryAgentBench: incremental multi-turn evaluation of retrieval, test-time learning, long-range understanding and conflict resolution. · [Code](https://github.com/HUST-AI-HYZ/MemoryAgentBench)
-- **[MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents](https://arxiv.org/abs/2506.21605)** (2025) — MemBench: effectiveness and efficiency evaluation across participation, multi-turn, multi-session and multi-scenario settings. · [Code](https://github.com/import-myself/Membench)
-- **[HaluMem: Evaluating Hallucinations in Memory Systems of Agents](https://arxiv.org/abs/2511.03506)** (2025) — HaluMem: operation-level hallucination evaluation for memory extraction, update and retrieval, not just final answers. · [Code](https://github.com/MemTensor/HaluMem)
-- **[MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks](https://arxiv.org/abs/2602.16313)** (2026) — MemoryArena: interdependent multi-session agentic tasks where memory must support later actions, not just recall.
-- **[From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents](https://arxiv.org/abs/2604.20006)** (2026) — From Recall to Forgetting: evaluates consolidation and knowledge updates as personal circumstances change.
-- **[MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale](https://arxiv.org/abs/2608.02613)** (2026) — MemArena: on-device, ego-centric personal-memory benchmark at scale, with trustworthiness dimensions.
-- **[LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners](https://arxiv.org/abs/2505.11942)** (2025) — LifelongAgentBench: evaluates agents as lifelong learners across sequential tasks and domains.
-- **[StreamBench: Towards Benchmarking Continuous Improvement of Language Agents](https://arxiv.org/abs/2406.08747)** (2024) — StreamBench: benchmarks continuous improvement from feedback over task streams.
+- **[MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents](https://arxiv.org/abs/2506.21605)** (2025) — Effectiveness and efficiency evaluation across participation, multi-turn, multi-session and multi-scenario settings. · [Code](https://github.com/import-myself/Membench)
+- **[HaluMem: Evaluating Hallucinations in Memory Systems of Agents](https://arxiv.org/abs/2511.03506)** (2025) — Operation-level hallucination evaluation for memory extraction, update and retrieval, not just final answers. · [Code](https://github.com/MemTensor/HaluMem)
+- **[MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks](https://arxiv.org/abs/2602.16313)** (2026) — Interdependent multi-session agentic tasks where memory must support later actions, not just recall.
+- **[From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents](https://arxiv.org/abs/2604.20006)** (2026) — Evaluates consolidation and knowledge updates as personal circumstances change.
+- **[MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale](https://arxiv.org/abs/2608.02613)** (2026) — On-device, ego-centric personal-memory benchmark at scale, with trustworthiness dimensions.
+- **[LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners](https://arxiv.org/abs/2505.11942)** (2025) — Evaluates agents as lifelong learners across sequential tasks and domains.
+- **[StreamBench: Towards Benchmarking Continuous Improvement of Language Agents](https://arxiv.org/abs/2406.08747)** (2024) — Benchmarks continuous improvement from feedback over task streams.
 - **[Do LLMs Recognize Your Preferences? Evaluating Personalized Preference Following in LLMs](https://arxiv.org/abs/2502.09597)** (2025) — PrefEval: tests whether models discover, track and apply user preferences over long interactions.
 - **[Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale](https://arxiv.org/abs/2504.14225)** (2025) — PersonaMem: dynamic user profiling and personalised response benchmark at scale.
-- **[MemGym: a Long-Horizon Memory Environment for LLM Agents](https://arxiv.org/abs/2605.20833)** (2026) — MemGym: a long-horizon memory environment for training and evaluating agents.
+- **[MemGym: a Long-Horizon Memory Environment for LLM Agents](https://arxiv.org/abs/2605.20833)** (2026) — A long-horizon memory environment for training and evaluating agents.
 - **[MemoryLake on MemoryArena: A Matched Study of Agent Memory Backends](https://arxiv.org/abs/2608.13883)** (2026) — Matched system-level comparison of memory backends on MemoryArena with the same harness and scorer.
-- **[LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks](https://arxiv.org/abs/2412.15204)** (2024) — LongBench v2: realistic long-context multitasks; a stress test for any context-management strategy.
-- **[RULER: What's the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654)** (2024) — RULER: measures effective context length and shows nominal windows overstate usable context.
+- **[LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks](https://arxiv.org/abs/2412.15204)** (2024) — Realistic long-context multitasks; a stress test for any context-management strategy.
+- **[RULER: What's the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654)** (2024) — Measures effective context length and shows nominal windows overstate usable context.
 
 ## Benchmarks: skills & procedural memory
 
 Evaluation of skill discovery, transfer, maintenance and safety.
 
-- **[SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills](https://arxiv.org/abs/2605.24117)** (2026) — SkillEvolBench: 180 tasks testing whether episodic experience can become reusable procedural skill.
-- **[SkillGenBench: Benchmarking Skill Generation Pipelines for LLM Agents](https://arxiv.org/abs/2605.18693)** (2026) — SkillGenBench: isolates the quality of generated skills from downstream task execution.
-- **[SkillLearnBench: Benchmarking Continual Learning Methods for Agent Skill Generation on Real-World Tasks](https://arxiv.org/abs/2604.20087)** (2026) — SkillLearnBench: continual skill learning across 20 skill-dependent real-world tasks.
+- **[SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills](https://arxiv.org/abs/2605.24117)** (2026) — 180 tasks testing whether episodic experience can become reusable procedural skill.
+- **[SkillGenBench: Benchmarking Skill Generation Pipelines for LLM Agents](https://arxiv.org/abs/2605.18693)** (2026) — Isolates the quality of generated skills from downstream task execution.
+- **[SkillLearnBench: Benchmarking Continual Learning Methods for Agent Skill Generation on Real-World Tasks](https://arxiv.org/abs/2604.20087)** (2026) — Continual skill learning across 20 skill-dependent real-world tasks.
 - **[Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation](https://arxiv.org/abs/2606.23127)** (2026) — AFTER: 382 enterprise tasks across six roles for measuring skill transfer across tasks, roles and backbones.
-- **[SkillFlow: Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents](https://arxiv.org/abs/2604.17308)** (2026) — SkillFlow: tests whether agents discover, repair and maintain skills over a lifelong stream.
-- **[SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces](https://arxiv.org/abs/2605.12015)** (2026) — SkillSafetyBench: safety evaluation for attacks delivered through skill guidance, artifacts and execution environments.
-- **[EngramBench: A Capability-Grounded Benchmark for Skill-Evolution Harnesses](https://arxiv.org/abs/2609.39284)** (2026) — EngramBench: capability-grounded evaluation of skill-evolution harnesses, separating abstraction from memorisation.
-- **[SkillTV-Bench: Benchmarking How Well Judges Perform on Skill-Augmented Agentic Execution](https://arxiv.org/abs/2608.05573)** (2026) — SkillTV-Bench: evaluates judges on full skill-augmented executions rather than final answers.
-- **[SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use](https://arxiv.org/abs/2607.01874)** (2026) — SkillCoach: self-evolving rubrics for fine-grained evaluation of skill selection and use.
+- **[SkillFlow: Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents](https://arxiv.org/abs/2604.17308)** (2026) — Tests whether agents discover, repair and maintain skills over a lifelong stream.
+- **[SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces](https://arxiv.org/abs/2605.12015)** (2026) — Safety evaluation for attacks delivered through skill guidance, artifacts and execution environments.
+- **[EngramBench: A Capability-Grounded Benchmark for Skill-Evolution Harnesses](https://arxiv.org/abs/2609.39284)** (2026) — Capability-grounded evaluation of skill-evolution harnesses, separating abstraction from memorisation.
+- **[SkillTV-Bench: Benchmarking How Well Judges Perform on Skill-Augmented Agentic Execution](https://arxiv.org/abs/2608.05573)** (2026) — Evaluates judges on full skill-augmented executions rather than final answers.
+- **[SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use](https://arxiv.org/abs/2607.01874)** (2026) — Self-evolving rubrics for fine-grained evaluation of skill selection and use.
 - **[Agent Skill Evaluation and Evolution: Frameworks and Benchmarks](https://arxiv.org/abs/2606.11435)** (2026) — Frameworks and benchmarks for evaluation-driven skill evolution.
 - **[A Benchmark for Procedural Memory Retrieval in Language Agents](https://arxiv.org/abs/2511.21730)** (2025) — Isolates procedural-memory retrieval: recognising functionally equivalent procedures across unseen object vocabularies.
 
@@ -243,9 +243,9 @@ Evaluation of skill discovery, transfer, maintenance and safety.
 Foundational results on what fits, what gets attended to and how to compress it.
 
 - **[Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)** (2023) — Shows performance depends on where relevant information sits in the context, not just how much fits.
-- **[LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models](https://arxiv.org/abs/2310.05736)** (2023) — LLMLingua: coarse-to-fine prompt compression for long contexts.
-- **[LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression](https://arxiv.org/abs/2310.06839)** (2023) — LongLLMLingua: question-aware compression that improves long-context retrieval and reduces cost.
-- **[Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/abs/2310.11511)** (2023) — Self-RAG: learns when to retrieve and critiques retrieved evidence and generations.
+- **[LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models](https://arxiv.org/abs/2310.05736)** (2023) — Coarse-to-fine prompt compression for long contexts.
+- **[LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression](https://arxiv.org/abs/2310.06839)** (2023) — Question-aware compression that improves long-context retrieval and reduces cost.
+- **[Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/abs/2310.11511)** (2023) — Learns when to retrieve and critiques retrieved evidence and generations.
 - **[Corrective Retrieval Augmented Generation](https://arxiv.org/abs/2401.15884)** (2024) — Corrective RAG: detects poor retrieval and corrects it with web search or refined queries.
 
 ## Frameworks, libraries & tools

@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 import sys
 import time
 import urllib.request
@@ -280,6 +281,22 @@ FULL_TITLES = {
 }
 
 
+def drop_redundant_name(title: str, description: str) -> str:
+    """Remove a leading "Name: " when the name is already in the title.
+
+    Descriptions used to open by repeating the system name ("FadeMem: ...").
+    The README already prints the title next to the description, so the name
+    is pure noise unless the title spells it differently (acronym vs long form).
+    """
+    match = re.match(r"^([\w][\w\-.+ ]{0,40}):\s+(\S.*)$", description)
+    if not match:
+        return description
+    name, rest = match.group(1).strip(), match.group(2)
+    if name.lower() not in title.lower():
+        return description
+    return rest[0].upper() + rest[1:]
+
+
 def paper_ids() -> list[str]:
     return sorted({aid for items in PAPERS.values() for aid, _, _ in items if aid != "HATALIS"})
 
@@ -387,6 +404,7 @@ def build_rows(meta: dict[str, dict]) -> list[dict]:
 
     for row in rows:
         row["title"] = FULL_TITLES.get(row["title"], row["title"])
+        row["description"] = drop_redundant_name(row["title"], row["description"])
 
     order = {name: i for i, (name, _) in enumerate(SECTIONS)}
     suborder: dict[tuple[str, str], int] = {}

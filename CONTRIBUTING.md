@@ -31,6 +31,8 @@ Good descriptions answer "should I read this, and what will I get?" They say wha
 
 Avoid hype ("revolutionary", "state-of-the-art" without a number), avoid copying the abstract verbatim, and avoid claims you cannot support from the paper itself. If the work is a vendor's own benchmark, say so — that is useful information.
 
+Do not open the description with the work's own name ("FadeMem: …") when the title already says it; the generator strips that automatically when the name appears in the title, but it reads better if you just start with the contribution.
+
 ## Workflow
 
 ```bash
