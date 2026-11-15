@@ -1,0 +1,652 @@
+[
+  {
+    "id": "2303.11366",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "published": "2023-03-20"
+  },
+  {
+    "id": "2304.03442",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "published": "2023-04-07"
+  },
+  {
+    "id": "2305.10250",
+    "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+    "published": "2023-05-17"
+  },
+  {
+    "id": "2305.16291",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "published": "2023-05-25"
+  },
+  {
+    "id": "2307.03172",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "published": "2023-07-06"
+  },
+  {
+    "id": "2308.10144",
+    "title": "ExpeL: LLM Agents Are Experiential Learners",
+    "published": "2023-08-20"
+  },
+  {
+    "id": "2309.02427",
+    "title": "Cognitive Architectures for Language Agents",
+    "published": "2023-09-05"
+  },
+  {
+    "id": "2310.05736",
+    "title": "LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models",
+    "published": "2023-10-09"
+  },
+  {
+    "id": "2310.06839",
+    "title": "LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression",
+    "published": "2023-10-10"
+  },
+  {
+    "id": "2310.08560",
+    "title": "MemGPT: Towards LLMs as Operating Systems",
+    "published": "2023-10-12"
+  },
+  {
+    "id": "2310.11511",
+    "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+    "published": "2023-10-17"
+  },
+  {
+    "id": "2311.05997",
+    "title": "JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models",
+    "published": "2023-11-10"
+  },
+  {
+    "id": "2401.15884",
+    "title": "Corrective Retrieval Augmented Generation",
+    "published": "2024-01-29"
+  },
+  {
+    "id": "2401.18059",
+    "title": "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+    "published": "2024-01-31"
+  },
+  {
+    "id": "2402.17753",
+    "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+    "published": "2024-02-27"
+  },
+  {
+    "id": "2404.06654",
+    "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+    "published": "2024-04-09"
+  },
+  {
+    "id": "2404.13501",
+    "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+    "published": "2024-04-21"
+  },
+  {
+    "id": "2404.16130",
+    "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+    "published": "2024-04-24"
+  },
+  {
+    "id": "2405.14831",
+    "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+    "published": "2024-05-23"
+  },
+  {
+    "id": "2406.08747",
+    "title": "StreamBench: Towards Benchmarking Continuous Improvement of Language Agents",
+    "published": "2024-06-13"
+  },
+  {
+    "id": "2407.04363",
+    "title": "AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents",
+    "published": "2024-07-05"
+  },
+  {
+    "id": "2407.15325",
+    "title": "Odyssey: Empowering Minecraft Agents with Open-World Skills",
+    "published": "2024-07-22"
+  },
+  {
+    "id": "2409.07429",
+    "title": "Agent Workflow Memory",
+    "published": "2024-09-11"
+  },
+  {
+    "id": "2410.05779",
+    "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+    "published": "2024-10-08"
+  },
+  {
+    "id": "2410.10813",
+    "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+    "published": "2024-10-14"
+  },
+  {
+    "id": "2410.14052",
+    "title": "From Isolated Conversations to Hierarchical Schemas: Dynamic Tree Memory Representation for LLMs",
+    "published": "2024-10-17"
+  },
+  {
+    "id": "2412.15204",
+    "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
+    "published": "2024-12-19"
+  },
+  {
+    "id": "2501.13956",
+    "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
+    "published": "2025-01-20"
+  },
+  {
+    "id": "2502.09597",
+    "title": "Do LLMs Recognize Your Preferences? Evaluating Personalized Preference Following in LLMs",
+    "published": "2025-02-13"
+  },
+  {
+    "id": "2502.12110",
+    "title": "A-MEM: Agentic Memory for LLM Agents",
+    "published": "2025-02-17"
+  },
+  {
+    "id": "2502.14802",
+    "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+    "published": "2025-02-20"
+  },
+  {
+    "id": "2504.02441",
+    "title": "Cognitive Memory in Large Language Models",
+    "published": "2025-04-03"
+  },
+  {
+    "id": "2504.13171",
+    "title": "Sleep-time Compute: Beyond Inference Scaling at Test-time",
+    "published": "2025-04-17"
+  },
+  {
+    "id": "2504.14225",
+    "title": "Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale",
+    "published": "2025-04-19"
+  },
+  {
+    "id": "2504.15965",
+    "title": "From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs",
+    "published": "2025-04-22"
+  },
+  {
+    "id": "2504.19413",
+    "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+    "published": "2025-04-28"
+  },
+  {
+    "id": "2505.11942",
+    "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
+    "published": "2025-05-17"
+  },
+  {
+    "id": "2506.06326",
+    "title": "Memory OS of AI Agent",
+    "published": "2025-05-30"
+  },
+  {
+    "id": "2506.21605",
+    "title": "MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents",
+    "published": "2025-06-20"
+  },
+  {
+    "id": "2507.03724",
+    "title": "MemOS: A Memory OS for AI System",
+    "published": "2025-07-04"
+  },
+  {
+    "id": "2507.05257",
+    "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+    "published": "2025-07-07"
+  },
+  {
+    "id": "2507.06229",
+    "title": "Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving",
+    "published": "2025-07-08"
+  },
+  {
+    "id": "2507.07957",
+    "title": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
+    "published": "2025-07-10"
+  },
+  {
+    "id": "2508.06433",
+    "title": "Memp: Exploring Agent Procedural Memory",
+    "published": "2025-08-08"
+  },
+  {
+    "id": "2510.15966",
+    "title": "PISA: A Pragmatic Psych-Inspired Unified Memory System for Enhanced AI Agency",
+    "published": "2025-10-12"
+  },
+  {
+    "id": "2511.03506",
+    "title": "HaluMem: Evaluating Hallucinations in Memory Systems of Agents",
+    "published": "2025-11-05"
+  },
+  {
+    "id": "2511.21730",
+    "title": "A Benchmark for Procedural Memory Retrieval in Language Agents",
+    "published": "2025-11-21"
+  },
+  {
+    "id": "2512.10696",
+    "title": "Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution",
+    "published": "2025-12-11"
+  },
+  {
+    "id": "2512.13564",
+    "title": "Memory in the Age of AI Agents",
+    "published": "2025-12-15"
+  },
+  {
+    "id": "2601.18642",
+    "title": "FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory",
+    "published": "2026-01-26"
+  },
+  {
+    "id": "2602.01869",
+    "title": "Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents",
+    "published": "2026-02-02"
+  },
+  {
+    "id": "2602.02474",
+    "title": "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
+    "published": "2026-02-02"
+  },
+  {
+    "id": "2602.05665",
+    "title": "Graph-based Agent Memory: Taxonomy, Techniques, and Applications",
+    "published": "2026-02-05"
+  },
+  {
+    "id": "2602.06052",
+    "title": "A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents",
+    "published": "2026-01-14"
+  },
+  {
+    "id": "2602.08234",
+    "title": "SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning",
+    "published": "2026-02-09"
+  },
+  {
+    "id": "2602.16313",
+    "title": "MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks",
+    "published": "2026-02-18"
+  },
+  {
+    "id": "2602.20867",
+    "title": "SoK: Agentic Skills -- Beyond Tool Use in LLM Agents",
+    "published": "2026-02-24"
+  },
+  {
+    "id": "2603.07670",
+    "title": "Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers",
+    "published": "2026-03-08"
+  },
+  {
+    "id": "2603.09716",
+    "title": "AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents",
+    "published": "2026-03-10"
+  },
+  {
+    "id": "2603.10062",
+    "title": "Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead",
+    "published": "2026-03-09"
+  },
+  {
+    "id": "2603.11768",
+    "title": "Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework",
+    "published": "2026-03-12"
+  },
+  {
+    "id": "2603.25158",
+    "title": "Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills",
+    "published": "2026-03-26"
+  },
+  {
+    "id": "2604.04804",
+    "title": "SkillX: Automatically Constructing Skill Knowledge Bases for Agents",
+    "published": "2026-04-06"
+  },
+  {
+    "id": "2604.08224",
+    "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+    "published": "2026-04-09"
+  },
+  {
+    "id": "2604.17308",
+    "title": "SkillFlow:Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents",
+    "published": "2026-04-19"
+  },
+  {
+    "id": "2604.20006",
+    "title": "From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents",
+    "published": "2026-04-21"
+  },
+  {
+    "id": "2604.20087",
+    "title": "SkillLearnBench: Benchmarking Continual Learning Methods for Agent Skill Generation on Real-World Tasks",
+    "published": "2026-04-22"
+  },
+  {
+    "id": "2604.20300",
+    "title": "FSFM: A Biologically-Inspired Framework for Selective Forgetting of Agent Memory",
+    "published": "2026-04-22"
+  },
+  {
+    "id": "2604.22085",
+    "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
+    "published": "2026-04-23"
+  },
+  {
+    "id": "2605.06614",
+    "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+    "published": "2026-05-07"
+  },
+  {
+    "id": "2605.07358",
+    "title": "A Comprehensive Survey on Agent Skills: Taxonomy, Techniques, and Applications",
+    "published": "2026-05-08"
+  },
+  {
+    "id": "2605.08386",
+    "title": "SkillLens: Adaptive Multi-Granularity Skill Reuse for Cost-Efficient LLM Agents",
+    "published": "2026-05-08"
+  },
+  {
+    "id": "2605.09315",
+    "title": "Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation",
+    "published": "2026-05-10"
+  },
+  {
+    "id": "2605.12015",
+    "title": "SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces",
+    "published": "2026-05-12"
+  },
+  {
+    "id": "2605.12978",
+    "title": "Useful Memories Become Faulty When Continuously Updated by LLMs",
+    "published": "2026-05-13"
+  },
+  {
+    "id": "2605.18401",
+    "title": "SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution",
+    "published": "2026-05-18"
+  },
+  {
+    "id": "2605.18693",
+    "title": "SkillGenBench: Benchmarking Skill Generation Pipelines for LLM Agents",
+    "published": "2026-05-18"
+  },
+  {
+    "id": "2605.20833",
+    "title": "MemGym: a Long-Horizon Memory Environment for LLM Agents",
+    "published": "2026-05-20"
+  },
+  {
+    "id": "2605.23986",
+    "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing",
+    "published": "2026-05-16"
+  },
+  {
+    "id": "2605.24117",
+    "title": "SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills",
+    "published": "2026-05-22"
+  },
+  {
+    "id": "2605.27366",
+    "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+    "published": "2026-05-26"
+  },
+  {
+    "id": "2605.27825",
+    "title": "MRMMIA: Membership Inference Attacks on Memory in Chat Agents",
+    "published": "2026-05-27"
+  },
+  {
+    "id": "2605.28773",
+    "title": "Rethinking Memory as Continuously Evolving Connectivity",
+    "published": "2026-05-27"
+  },
+  {
+    "id": "2605.29668",
+    "title": "GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents",
+    "published": "2026-05-28"
+  },
+  {
+    "id": "2606.06240",
+    "title": "TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory",
+    "published": "2026-06-04"
+  },
+  {
+    "id": "2606.09900",
+    "title": "Less Context, More Accuracy: A Bi-Temporal Memory Engine for LLM Agents Where a Lean Retrieved Context Beats the Full History",
+    "published": "2026-06-05"
+  },
+  {
+    "id": "2606.11435",
+    "title": "Agent Skill Evaluation and Evolution: Frameworks and Benchmarks",
+    "published": "2026-06-09"
+  },
+  {
+    "id": "2606.14997",
+    "title": "AI Engram: In Search of Memory Traces in Artificial Intelligence",
+    "published": "2026-06-12"
+  },
+  {
+    "id": "2606.15390",
+    "title": "Not All Skills Help: Measuring and Repairing Agent Knowledge",
+    "published": "2026-06-13"
+  },
+  {
+    "id": "2606.23127",
+    "title": "Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation",
+    "published": "2026-06-22"
+  },
+  {
+    "id": "2606.24775",
+    "title": "Are We Ready For An Agent-Native Memory System?",
+    "published": "2026-06-23"
+  },
+  {
+    "id": "2606.25161",
+    "title": "TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory",
+    "published": "2026-06-23"
+  },
+  {
+    "id": "2607.01874",
+    "title": "SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use",
+    "published": "2026-07-02"
+  },
+  {
+    "id": "2607.08032",
+    "title": "What to Keep, What to Forget: A Rate--Distortion View of Memory Compaction in LLMs and Agents",
+    "published": "2026-07-09"
+  },
+  {
+    "id": "2607.10113",
+    "title": "Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries",
+    "published": "2026-07-11"
+  },
+  {
+    "id": "2607.13157",
+    "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
+    "published": "2026-07-14"
+  },
+  {
+    "id": "2607.13591",
+    "title": "Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents",
+    "published": "2026-07-15"
+  },
+  {
+    "id": "2607.26520",
+    "title": "A Graph-Native Bitemporal Memory Store for Conversational AI Agents",
+    "published": "2026-07-29"
+  },
+  {
+    "id": "2607.27080",
+    "title": "MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
+    "published": "2026-07-29"
+  },
+  {
+    "id": "2608.01679",
+    "title": "When Memory Becomes Authority: Benchmarking Authority Collapse at the Memory Consolidation Boundary",
+    "published": "2026-08-03"
+  },
+  {
+    "id": "2608.02613",
+    "title": "MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale",
+    "published": "2026-05-20"
+  },
+  {
+    "id": "2608.05573",
+    "title": "SkillTV-Bench: Benchmarking How Well Judges Perform on Skill-Augmented Agentic Execution",
+    "published": "2026-08-06"
+  },
+  {
+    "id": "2608.05604",
+    "title": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
+    "published": "2026-08-06"
+  },
+  {
+    "id": "2608.12476",
+    "title": "Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents",
+    "published": "2026-08-12"
+  },
+  {
+    "id": "2608.13883",
+    "title": "MemoryLake on MemoryArena: A Matched Study of Agent Memory Backends",
+    "published": "2026-08-14"
+  },
+  {
+    "id": "2608.16114",
+    "title": "HyperSkill: Self-Evolving LLM Agents via Hypergraph-Structured Skill Memory",
+    "published": "2026-08-17"
+  },
+  {
+    "id": "2608.21964",
+    "title": "Repo2Skill-Evo: Repository Skills Go Stale in Silence",
+    "published": "2026-08-22"
+  },
+  {
+    "id": "2608.22215",
+    "title": "Dual-Layer Agentic Memory with Fast Write Routing and Slow Consolidation",
+    "published": "2026-08-23"
+  },
+  {
+    "id": "2608.22533",
+    "title": "CONTRAMEM: Learning Self-Evolving Procedural Memory from Contrasting Multi-Model Trajectories",
+    "published": "2026-08-23"
+  },
+  {
+    "id": "2609.02217",
+    "title": "SkillGLoW: Procedural-Family Skill Consolidation for Self-Improving Agents on Long-Horizon Task Streams",
+    "published": "2026-09-02"
+  },
+  {
+    "id": "2609.02253",
+    "title": "APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering",
+    "published": "2026-09-02"
+  },
+  {
+    "id": "2609.08228",
+    "title": "SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale",
+    "published": "2026-09-08"
+  },
+  {
+    "id": "2609.10750",
+    "title": "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents",
+    "published": "2026-09-09"
+  },
+  {
+    "id": "2609.33013",
+    "title": "The Epistemics of Agent Memory: Measuring, and Governing, the Consolidation Decision in Long-Horizon LLM Agents",
+    "published": "2026-09-26"
+  },
+  {
+    "id": "2609.36746",
+    "title": "EASE: Behavior-Adaptive Skill Curation for Self-Evolving Agents",
+    "published": "2026-09-29"
+  },
+  {
+    "id": "2609.39284",
+    "title": "EngramBench: A Capability-Grounded Benchmark for Skill-Evolution Harnesses",
+    "published": "2026-09-30"
+  },
+  {
+    "id": "2610.00704",
+    "title": "SkillSpec: Consensus-Gated Agent Skill Evolution via Representation Specialization",
+    "published": "2026-09-30"
+  },
+  {
+    "id": "2610.05176",
+    "title": "AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "2610.05303",
+    "title": "ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "2610.08048",
+    "title": "DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks",
+    "published": "2026-10-06"
+  },
+  {
+    "id": "2610.12124",
+    "title": "Use and Disuse: Intent-Structured Experience Consolidation for Memory and Learning in LLM Agents",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "2610.18807",
+    "title": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
+    "published": "2026-10-13"
+  },
+  {
+    "id": "2610.19386",
+    "title": "STRATA: Self-Maintaining Structured Experience Graphs for Self-Evolving Language Agents",
+    "published": "2026-10-14"
+  },
+  {
+    "id": "2610.21791",
+    "title": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
+    "published": "2026-10-15"
+  },
+  {
+    "id": "2610.23574",
+    "title": "Darwin-Claw: Environment-Adaptive Experience Consolidation for Recursively Self-Evolving Agents",
+    "published": "2026-10-16"
+  },
+  {
+    "id": "2610.27377",
+    "title": "REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents",
+    "published": "2026-10-19"
+  },
+  {
+    "id": "2611.01386",
+    "title": "Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces",
+    "published": "2026-11-01"
+  },
+  {
+    "id": "2611.04003",
+    "title": "WASP-Mem: Let Agent Organize Procedural Memory. Human Spend Effort on Diagnosis",
+    "published": "2026-11-02"
+  },
+  {
+    "id": "2611.04299",
+    "title": "Can Benign Skills Induce Misaligned Behavior in LLM Agents?",
+    "published": "2026-11-03"
+  },
+  {
+    "id": "2611.05636",
+    "title": "Route to Remember: Adaptive Memory Selection for LLM Agents",
+    "published": "2026-11-03"
+  }
+]

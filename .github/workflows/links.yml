@@ -1,0 +1,40 @@
+name: links
+
+on:
+  schedule:
+    # Mondays, 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check every link
+        id: links
+        run: python scripts/check_links.py --delay 1.0 | tee links.txt
+
+      - name: Open an issue when links break
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken links found by the weekly check
+          content-filepath: links.txt
+          labels: link-rot
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: links.txt

@@ -1,0 +1,25 @@
+name: Broken or wrong entry
+description: A link is dead, a year is wrong, or a title is misattributed
+title: "fix: "
+labels: ["correction"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      description: The title as it appears in the README.
+      placeholder: "MemGPT: Towards LLMs as Operating Systems"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      placeholder: The link returns 404; the canonical page is now at ...
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested replacement link (if any)
+      placeholder: https://...

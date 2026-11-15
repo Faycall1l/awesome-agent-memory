@@ -1,0 +1,52 @@
+name: Suggest an entry
+description: Propose a paper, tool, benchmark or article for the list
+title: "add: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Canonical link
+      description: arXiv abstract page, official repository, or the author's own post.
+      placeholder: https://arxiv.org/abs/...
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      placeholder: "2025"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it belong here?
+      description: What does it contribute that the list does not already cover? One or two sentences.
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Proposed section
+      options:
+        - Surveys & SoKs
+        - Foundations & position papers
+        - Memory systems & architectures
+        - Graph, temporal & structured memory
+        - Consolidation, forgetting & pruning
+        - Procedural memory, skills & experience
+        - Control, triggering & self-evolution
+        - Trust, governance & security
+        - Benchmarks: memory & long-horizon evaluation
+        - Benchmarks: skills & procedural memory
+        - Retrieval & context engineering
+        - Frameworks, libraries & tools
+        - Articles, blogs & talks
+        - Related lists & communities

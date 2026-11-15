@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Awesome Agent Memory"
+message: "If you use this list in teaching or research, please cite it as below."
+type: dataset
+authors:
+  - family-names: "Amrouche"
+    given-names: "Faycal"
+repository-code: "https://github.com/Faycall1l/awesome-agent-memory"
+url: "https://github.com/Faycall1l/awesome-agent-memory"
+license: CC-BY-4.0
+date-released: 2026-11-15
+version: 1.0.0
+abstract: >-
+  A curated list of papers, systems, benchmarks, tools and articles on memory for
+  AI agents: persistent state outside the model weights that an agent writes,
+  manages and reads across tasks or sessions. Entries are organised by form and
+  function of memory, from surveys and foundational systems to graph and temporal
+  stores, consolidation and forgetting, procedural memory and skills, evaluation
+  and open-source frameworks.
+keywords:
+  - agent memory
+  - long-term memory
+  - large language models
+  - retrieval-augmented generation
+  - memory consolidation
+  - forgetting
+  - procedural memory
+  - agent skills
+  - knowledge graphs
+  - benchmarks
